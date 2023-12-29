@@ -90,7 +90,6 @@ const fetchdata  = async()=>{
   try{
     const response = await fetch(baseUrl)
     const data = await response.json()
-    // console.log(data,'data');
   }
   catch(err){
     console.log(err);

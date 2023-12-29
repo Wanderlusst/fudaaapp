@@ -13,18 +13,12 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    console.log('log mounted');
     const timer = setTimeout(() => {
       setLoading(false);
     }, 2000);
 
-    console.log('log updated');
-
-
     return () =>{
       clearTimeout(timer);
-      console.log('Unmounted');
-
     } 
   },[]);
 

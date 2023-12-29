@@ -14,12 +14,7 @@ import { increment, decrement } from "../Redux/Cart";
 const CartItem = ({ data, count, dispatch }) => {
   const { themeMode } = useTheme();
   const { cartCount } = useSelector((state) => state.cart);
-  console.log(count,'default count');
-  console.log(cartCount,'default cartCount');
 
-  // if(Object.keys(cartCount).length === 0 && cartCount.constructor === Object){
-  //   console.log('hyelo');
-  // }
 
   const divStyle = {
     backgroundColor: themeMode === "dark" ? "#23272f" : "white",

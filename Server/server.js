@@ -67,7 +67,7 @@ app.get('/getUser/:id', (req, res) => {
   .catch((err) => res.json(err));  
 });
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
 });
