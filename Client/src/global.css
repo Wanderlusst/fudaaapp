@@ -1,0 +1,11 @@
+:root {
+    --background-color: white; /* Default background color for light theme */
+    --background-color-dark: black; /* Background color for dark theme */
+  }
+  
+  body {
+    background-color: var(--background-color);
+  }
+  *{
+    user-select: none;
+  }

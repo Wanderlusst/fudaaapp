@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\akash.as\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add next react react-dom
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Program Files\nodejs\;C:\Users\akash.as\AppData\Local\Microsoft\WindowsApps;C:\Users\akash.as\.dotnet\tools;C:\Users\akash.as\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\akash.as\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\akash.as\Desktop\foodapp\foodtopia\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "vite-project",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "@emotion/react": "^11.11.1",
+      "@emotion/styled": "^11.11.0",
+      "@fontsource/roboto": "^5.0.8",
+      "@mui/icons-material": "^5.14.16",
+      "@mui/material": "^5.14.17",
+      "@splidejs/react-splide": "^0.7.12",
+      "@splidejs/splide": "^4.1.4",
+      "@splidejs/splide-extension-auto-scroll": "^0.5.3",
+      "razorpay": "^2.9.2",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^4.11.0",
+      "request": "^2.88.2",
+      "request-promise-native": "^1.0.9",
+      "tw-elements": "^1.1.0",
+      "yarn": "^1.22.19"
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.15",
+      "@types/react-dom": "^18.2.7",
+      "@vitejs/plugin-react": "^4.0.3",
+      "autoprefixer": "^10.4.16",
+      "eslint": "^8.45.0",
+      "eslint-plugin-react": "^7.32.2",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "eslint-plugin-react-refresh": "^0.4.3",
+      "postcss": "^8.4.31",
+      "tailwindcss": "^3.3.3",
+      "vite": "^4.4.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

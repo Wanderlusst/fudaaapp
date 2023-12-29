@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App.css */
+
+  
+:root {
+    --background-color: white; /* Default background color */
+  }
+  
+  body {
+    background-color: var(--background-color);
+    /* Other body styles */
+  }
+  
